@@ -1,0 +1,52 @@
+Web Applications:
+-------------------------------------
+Any applications that will be run on browsers.
+
+Types:
+-------------------
+    1.Static web Applications -- 
+        ->Any web application doesn't have functionalities is called static web application.
+        ->To build static web application we will only use html and css.
+
+    2.Dynamic Applications --
+        ->Any web Applications having functionalities is called dynamic web application.
+        ->To build dynamic web applications HTML,CSS and JS required.
+
+
+
+HTML:
+-----------------
+present version -- html 5.
+
+HTML boiler plate:
+------------------
+Tags:
+-----
+    Tags are the predefined words which are enclosed with both opening and closing angular brackets(<>).
+    ex:  <h1>,<p>,<div>
+    Types of tags: 
+    1.Paired tags:
+    --------------
+        Any tags having both opening and closing tags is called as paired tags.
+        ex: 1.All heading tags
+                    <h1>heading tag-1</h1> <!--h${heading tag-$}*6-->
+                    <h2>heading tag-2</h2>
+                    <h3>heading tag-3</h3>
+                    <h4>heading tag-4</h4>
+                    <h5>heading tag-5</h5>
+                    <h6>heading tag-6</h6>
+            2.Formatting tags
+                <b></b>      - font bold
+                <strong></strong>    - font bold
+                <i></i>        - font italic
+                <em></em>      - font italic
+                <mark></mark>  - light the content
+                <u></u>        - underline
+                <sub></sub>    - subscript
+                <sup></sup>     - superscript
+                <marquee></marquee>   - to scroll the content
+                <center></center>   - align content to center(only work for block level elements)
+                <strick></strick>    - 
+            3.other tags
+
+

@@ -48,5 +48,5 @@ Tags:
                 <center></center>   - align content to center(only work for block level elements)
                 <strick></strick>    - 
             3.other tags
-
+                <p></p>,<div></div>,
 

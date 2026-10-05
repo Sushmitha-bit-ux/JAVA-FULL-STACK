@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        form{
+            height:100vh;
+            width: 100vw;
+            background-image: url('images.jpg');
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Login Form</legend>
+            <label for="username">UserName: </label>
+            <input type="text" minlength="3" maxlength="20" placeholder="Enter user name" required id="username">  <!--for is used when we click on the data it will highlight the box (see by running)-->
+            <br><br>
+            <label for="psw">Password: </label>
+            <input type="password" placeholder="Enter password" required id="psw">
+            <br><br>
+            <button type="submit">Login</button>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form>
+</body>
+</html>

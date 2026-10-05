@@ -1,0 +1,131 @@
+30-09-2026
+
+JavaScript:
+--------------
+    introduced in 1995.
+    JavaScript is the scripting language as well as programming language.
+    JS is Dynamically typed Programming.
+    JS havung single call stack(doesn't support multithreading)
+
+    Uses:
+        using JS we can build dynamic wev Applications
+        using JS we can add functionalities to Web pages
+        here we can achieve DOM(Document Object Model) functionalities using that we can manipulate HTML and CSS.
+        We can fetch data from server(API's) and also send data to server(API's)
+    
+    mocha ->1995 ->net scope(browser company)
+    |
+    live script(rename) 
+    |
+    JavaScript
+    |
+    ECMA(company) -> added new feature -> release 1st version -> ES1(ECMA script version 1)
+
+    Stable version of JS-->ES6
+    Present version of JS-->ES16
+
+
+    Implements:
+    ------------
+        1.Inline JS   ---   <button onclick="alert('User clicked')">Click</button>
+        2.Internal JS
+        3.External JS
+
+Tokens:
+--------
+    tokens are the smallest units in JS code.
+    Types:
+        1.identifiers
+            -- Identifiers are the names givento the code
+            -- In the place identifiers we can't use keywords
+            -- Ex: variable name,class names,function name(method names)
+        2.keywords
+            -- Keywords are the predefine words which have its own meaning
+            -- In JS total 66 keywords
+            Ex: let,var,const,for,async,await,asser,boolean,byte,if,import,implements,o=enum,important
+        3.literals
+            -- constants
+        4.operators
+            Symbols used to perform operations betweenoperands: logical,assignment,unary binary,comparison operators etc.
+        5.seperators
+            -- to seperate the keywords like Symbols
+            Ex: . , :" ", ; , {},[],(),<>
+        6.Comments
+            -- Single line Comments   //
+            -- Multi-line comments  /* ---------- */
+
+DataTypes:
+-----------
+    DataTypes represents what type of data we are storing in a variable
+    Types:
+        1.Primitive DataTypes:
+            -- Single value can be stored
+            i.number
+            ii.string
+            iii.boolean
+            iv.null
+            v.undefine
+            vi.symbol
+            vii.bigint
+        2.Non-primitive DataTypes
+            i.Arrays
+                -- Arrays are the linear data structures used to store collection oof homogeneous or heterogeneous data
+                In JS Arrays Declaration:
+                -------------------------
+                    1.Literal way
+                    2.using new keyword(object)
+                    Loops:
+                    ------
+                        1.for Loop
+                        2.while Loop
+                        3.do while Loop
+                        4.for-of Loop -- works for arrays and strings to iterate - gets only values
+                        5.for-in Loop -- works for arrays and strings to iterate - gets only indexs
+                        6.for-each Loop 
+
+                        7.map()
+                        8.filter()
+                        9.reduce()
+
+
+            ii.Objects
+                -- objects are real time entities used to store data in the form of key and value pair.
+                In JS Objects Declaration:
+                -------------------------
+                    1.Literal way
+                        Syntax:
+                            variableType variableName={
+                                key1:value,
+                                key2:value
+                            }
+                    2.using new keyword(object)
+                        Syntax:
+                            variableType variableName=new Object({
+                                key1:value,
+                                key2:value
+                            })
+
+            iii.functions
+                -- functions are the block of statements which will get execute whenever it called.
+                Notes:
+                    - using functions we can perform code reusability
+                    - and also increase code readability
+                
+                Types:
+                -------
+                    1.User define functions
+                    2.Predefine functions
+    In JS we can declare functions in many ways(classifications)
+    ---------------------------------------------------------------
+        1.Anonyms function
+        2.normal/named function
+        3.functional expression ***imp
+        4.first class function
+        5.immediate invoking function(IIF) / Self calling function ***imp
+        6.Arrow function(ES6)
+        7.Nested functions ***imp
+        8.higher order function ***imp
+        9.callback function
+        10.generator function
+        
+

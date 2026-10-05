@@ -1,0 +1,71 @@
+26-09-2027
+
+Lists in Html:
+-------------------
+List is used to display items in organized way.
+
+Types:
+    1.ordered list:
+        <ol> </ol>  represent the ordered list using that
+        <li> </li>  contains list of items
+        Order list attributes:
+        -----------------------
+            1.start  ->numbers
+            2.type   ->1,a,A,i,i
+            3.reserved
+
+    2.unordered list:
+        <ul> </ul>  represent the unordered list using that
+        <li> </li>  contains list of items
+        attributes:
+            type --  none,disc,circle,square
+
+    3.Description/definition list:
+        <dl></dl>  represents the description list
+        <dt></dt>  repredents the description term
+        <dd></dd>  represents the description data
+
+    4.Nested list:
+        list inside a list
+
+
+
+Forms in HTML:
+----------------
+    used to collect user information digitally
+    Form tags:
+    ----------
+        <form></form>
+        <fieldset></fieldset>--for form border
+        <legend></legend>--discribe
+        <label></label>
+        <input>
+        <select></select>  ->  <option></option>
+        <button></button>
+        <textarea></textarea>---to take large text from the user,sizeis dynamic
+
+Input Type Values:
+------------------
+    1.text
+    2.password
+    3.number
+    4.email
+    5.date
+    6.radio
+    7.reset
+    8.button
+    9.checkbox
+    10.submit
+    11.range
+    12.image
+    13.url
+    14.search
+    15.month
+    16.year
+    17.time
+    18.datetime-local
+    19.color
+    20.hidden
+    21.file
+    22.tel
+    23.week

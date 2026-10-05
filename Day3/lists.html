@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul>li::marker{
+            content:"▶️";  
+       } 
+     </style>
+</head>
+<body>
+    <h1 align=center>Ordered list without type</h1>
+    <hr>
+    <ol>
+        <li>C</li> <!--li*5-->
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>DS</li>
+    </ol>
+    <h1 align=center>Ordered list with type i</h1>
+    <hr>
+    <ol type="i">
+        <li>C</li> <!--li*5-->
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>DS</li>
+    </ol>
+    <h1 align=center>Ordered list with type I</h1>
+    <hr>
+    <ol type="I">
+        <li>C</li> <!--li*5-->
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>DS</li>
+    </ol>
+    <h1 align=center>Ordered list with type a</h1>
+    <hr>
+    <ol type="a" start="2" reversed> <!--interview question-->
+        <li>C</li> <!--li*5-->
+        <li>Java</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>DS</li>
+    </ol>
+
+    <h1 align=center>Unordered list</h1>
+    <hr>
+    <ul >  <!--type  disc,circle,square,none-->
+        <li>t1</li>
+        <li>t2</li>
+        <li>t3</li>
+        <li>t4</li>
+        <li>t5</li>
+        <li>t6</li>
+        <!--
+        <style>
+            ul>li:marker{
+                content:"smile";  windows+v
+            } 
+        </style> in body
+        -->
+    </ul>
+    <h1 align="center">Description list</h1>
+    <hr>
+    <dl>
+        <dt>React JS</dt>
+        <dd>->React JS JavaScript Library used to design user interface</dd>
+        <dd>->It is component based</dd>
+        <dd>->Using react js we can build SPA(single page apllication)</dd>
+
+        <dt>Node JS</dt>
+        <dd>A javascript runtime built on chrome's V8 JavaScript Engine</dd>
+
+        <dt>Java</dt>
+        <dd>Java is object oriented programming language</dd>
+        <dd>platform independent</dd>
+        <dd>multithreading</dd>
+    </dl>
+    <h1 align=center>Nested List</h1>
+    <hr>
+    <ol>
+        <li>Name:Sai</li>
+        <li>Role:Developer</li>
+        <li>Email:sai@gmail.com</li>
+        <li>Skills:</li>
+        <ul>
+            <li>Frontend technologies</li>
+            <ul>
+                <li>React Js</li>
+                <li>Angular JS</li>
+                <li>Vue JS</li>
+                <li>Anime JS</li>
+            </ul>
+            <li>programming languages</li>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>.Net</li>
+            </ul>
+            <li>database</li>
+            <ul>
+                <li>MongoDB</li>
+                <li>Cassandra</li>
+                <li>HBase</li>
+                <li>DynamoDB</li>
+            </ul>
+        </ul>
+    </ol>
+</body>
+</html>

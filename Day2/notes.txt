@@ -1,0 +1,36 @@
+25/09/2026:
+------------
+
+3.Other tags:
+--------------
+    Ex:<div></div>,<p></p>,<span></span>,all list tags,media tags,semantic tags
+
+
+Attributes:
+------------
+    Additional information given to yhe tag
+    Always in starting(opening) tag,key-value pairs
+unpaired tags:
+Also called self closing tags
+Ex:br,image,hr,meta,input,link
+
+<image> tag:
+------------
+Attributes:
+src -absolute(browser images),relative
+height
+width
+alternate-- alt
+style
+id 
+class
+
+
+-->use .gitignore file to not to push into the github.The file may have *.mp3,*.mp4 i.e,the photos and video files we are not pushing into the github
+-->git remote add origin repository url
+    git lo push
+
+
+
+Git Commands:
+---------------------

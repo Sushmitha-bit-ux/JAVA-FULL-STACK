@@ -1,0 +1,10 @@
+Variables:
+-----------------
+var let and const
+
+var-> global scope
+let-> block scope
+const-> block scope
+
+
+Write a program to checj whether the three sides of s triangle is valid or not

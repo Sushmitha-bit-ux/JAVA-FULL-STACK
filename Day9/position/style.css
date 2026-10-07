@@ -15,3 +15,19 @@ div{
     position:relative;
     right:60px;
 }
+#box3{
+    background-color: blue;
+    position: fixed;
+    top: 200px;
+}
+#box4{
+    background-color: aquamarine;
+    position: sticky;
+    top:30px;
+}
+#box5{
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
